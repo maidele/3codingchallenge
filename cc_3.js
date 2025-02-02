@@ -6,7 +6,7 @@ price.push("71");// A price that is new is being added to the array
 
 price.pop();// The 1st price is being removed
 
-console.log("Updated Product List:", products);
+console.log("Updated Price List:", price);
 
 //Task 2
 let orders = [100,200,300,400,500];// Order array is declared
