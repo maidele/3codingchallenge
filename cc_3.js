@@ -34,3 +34,15 @@ let propertypromotionEligible = true;// This employee qualifies for a promotion!
 
 console.log("Up-to-date Records for Employee:", employee)
 
+
+// Task 4-
+let customers = [
+    { customerName: "Alexa Roberts", feedbackText: " Maxine was amazing!", rating: 90/100},
+    { customerName: "Jamie Fox", feedbackText: "Maxine answered the majority of my questions.", rating: 80/100 },
+    { customerName: "Christie Stevens", feedbackText: "Maxine assisted with solving an issue of mine promptly!", rating: 85/100 }
+ ];
+ 
+ 
+ feedbackText.push({ customerName: "Kelly Louis", feedbackText: " Maxine was a great, wish we could have more time to speak.", rating: 85/100});// Feedback that is new is added
+ 
+ console.log("Customer Feedback", customers);
