@@ -42,7 +42,7 @@ let customers = [
     { customerName: "Christie Stevens", feedbackText: "Maxine assisted with solving an issue of mine promptly!", rating: 85/100 }
  ];
  
- feedbackText.push({ customerName: "Kelly Louis", feedbackText: " Maxine was a great, wish we could have more time to speak.", rating: 85/100});
+ customerName.push({ customerName: "Kelly Louis", feedbackText: " Maxine was a great, wish we could have more time to speak.", rating: 85/100});
  
  console.log("Customer Feedback", customers);
 
