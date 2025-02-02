@@ -16,7 +16,7 @@ orders[2]+=5; // The third quantity within the order is being increased by 5 her
 let totalOrders = orders.reduce((total, amount) => total + amount, 0);
 
 console.log("Orders with their Updates:", orders)
-console.log(`Orders with their Updates': $${totalOrders}`);  // Output: Total amount of orders: $1500 !!
+console.log(`Number of Total Orders': $${totalOrders}`);  // Output: Total amount of orders: $1500 !!
 
 //Task 3
 
