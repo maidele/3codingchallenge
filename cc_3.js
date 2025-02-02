@@ -49,7 +49,7 @@ let customers = [
  // Task 5-
 
  let order = {
-    itemName: Printer,
+    itemName: "Printer",
     stockCount: 10,
     price: 570,
     calculateTax(amount) {//Calculating tax
