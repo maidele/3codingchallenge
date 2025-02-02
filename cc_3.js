@@ -17,3 +17,20 @@ let totalOrders = orders.reduce((total, amount) => total + amount, 0);
 
 console.log("Orders with their Updates:", orders)
 console.log(`Orders with their Updates': $${totalOrders}`);  // Output: Total amount of orders: $1500 !!
+
+//Task 3
+
+let employee = {
+    id: 234,
+    name: "Maxine",
+    role: "Business Analyst",
+    performanceScore: 80,
+    isActive: true
+};
+
+employee.performanceScore= 85 // score for the employee's performance is being updates
+
+let propertypromotionEligible = true;// This employee qualifies for a promotion!
+
+console.log("Up-to-date Records for Employee:", employee)
+
