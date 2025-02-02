@@ -45,3 +45,19 @@ let customers = [
  feedbackText.push({ customerName: "Kelly Louis", feedbackText: " Maxine was a great, wish we could have more time to speak.", rating: 85/100});// Feedback that is new is added
  
  console.log("Customer Feedback", customers);
+
+ // Task 5-
+
+ let order = {
+    itemName: Printer,
+    stockCount: 10,
+    price: 570,
+    calculateTax: (amount) { //Calculating tax
+    return amount * 10// Calculate stock 
+    }
+ };
+
+console.log ("Inventory Order Information:", order);
+console.log ("Tax Value:", calculateTax(570));
+
+
