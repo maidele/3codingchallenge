@@ -23,7 +23,7 @@ console.log(`Orders with their Updates': $${totalOrders}`);  // Output: Total am
 let employee = {
     id: 234,
     name: "Maxine",
-    role: "Business Analyst",
+    role: "Data Analyst",
     performanceScore: 80,
     isActive: true
 };
