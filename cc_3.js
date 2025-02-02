@@ -21,7 +21,6 @@ console.log(`Number of Total Orders': $${totalOrders}`);  // Output: Total amoun
 //Task 3
 
 let employee = {
-    id: 234,
     name: "Maxine",
     role: "Data Analyst",
     performanceScore: 80,
