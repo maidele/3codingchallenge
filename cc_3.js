@@ -1,7 +1,11 @@
+//Task 1
 
-let price = ["$20", "$25", "$30", "$35", "$40"]; 
-price.push("71");
-price.pop();
+let price = ["$20", "$25", "$30", "$35", "$40"]; // Price being declared
+
+price.push("71");// A price that is new is being added to the array 
+
+price.pop();// The 1st price is being removed
+
 console.log("Updated Product List:", products);
 
 //Task 2
