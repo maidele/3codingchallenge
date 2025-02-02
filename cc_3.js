@@ -52,7 +52,7 @@ let customers = [
     itemName: Printer,
     stockCount: 10,
     price: 570,
-    calculateTax: (amount) { //Calculating tax
+    calculateTax(amount) {//Calculating tax
     return amount * 10// Calculate stock 
     }
  };
