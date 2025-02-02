@@ -58,6 +58,6 @@ let customers = [
  };
 
 console.log ("Inventory Order Information:", order);
-console.log (order.calculateTax());
+console.log ("The value of the tax:", order.calculateTax(57));
 
 
